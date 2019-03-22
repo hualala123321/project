@@ -1,0 +1,125 @@
+.header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,.5); 
+	z-index: 999;
+}
+.header .header-c{
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .header-c .logo{
+	display: block;
+	padding-top: 17px;
+}
+.header .header-c ul{	
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.header .header-c li{
+	float: left;
+	height: 100%;
+	padding: 0 10px;
+	margin-left: 10px; 
+}
+.header .header-c ul a{
+	display: block;
+	width: 100%;
+	margin-top: 17px;
+	line-height: 45px;
+	font-size: 16px;
+	text-indent: center;
+	color: #8d8d8d;
+}
+.header ul a:hover{
+	border-bottom: 2px solid #dd1717;
+	color: #dd1717;
+}
+.banner{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background: url(../imgs/gril.jpg) no-repeat center;
+}
+.bor1,.bor2{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #9e99a0;
+	border-radius: 50%;
+}
+.banner .bor1{
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left:-28px; 
+}
+.banner .bor2{
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: 5px;
+}
+.banner a{
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+.banner .bor1:hover,
+.banner .bor2:hover{
+	border: 1px solid #dc1818;
+}
+.content{
+	width: 100%;
+	height: 800px;
+	padding-top: 40px;
+	background-color: #000000;
+}
+.content .exhibittion{
+	position: relative;
+	margin: 0 auto;
+	width: 520px;
+	height: 160px;
+	background-color: #000000;
+	overflow: hidden;
+}
+.content .exhibittion span{
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 79px;
+	background-color: #dd1717;
+}
+.content .exhibittion .text{
+	position: absolute;
+	width: 260px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin-left: -130px;
+	margin-top: -25px;
+	color: #dd1717;
+	background-color: #000000;
+}
+.content .exhibittion .text p{
+	text-align: center;
+	font-size: 24px;
+	color: #dd1717;
+	line-height: 50px;
+}
+.content .exhibittion .word{
+	color: #8c8c8c;
+	font-size: 16px;
+	text-align: center; 
+	margin-top: 30px;
+}
+.content li{
+	width: 445px;
+	height: 290px;
+	margin-left: 
+}

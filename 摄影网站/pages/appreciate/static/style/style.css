@@ -1,0 +1,185 @@
+.header{
+	width: 100%;
+	height: 560px;
+	background: url(../imgs/sy-top.jpg) no-repeat 0 0;
+}
+.header .header-c{
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+	background: url(../imgs/sy-logo.png) no-repeat 0 10px;
+}
+.header .header-c a{
+	float: right;
+	line-height: 34px;
+	font-size: 16px;
+	color: #949494;
+	margin-left: 35px;
+	margin-top: 17px;
+}
+.header .header-c a:hover{
+	color: #dd1717;
+	border-bottom: 2px solid #dd1717;
+}
+.main{
+	width: 100%;
+	height: 1150px;
+	background-color: #161616;
+}
+.main .top{
+	width: 520px;
+	height: 235px;
+	margin: 0 auto;
+}
+.main .top .hg{
+	width: 128px;
+	height: 120px;
+	border-bottom: 2px solid #8d1717;
+}
+.main .top .hg.l{
+	float: left;
+}
+.main .top .hg.r{
+	float: right;
+}
+.main .top .pro1{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 24px;
+	color: #dd1717;
+}
+.main .top .pro2{
+	text-align: center;
+	font-size: 14px;
+	color: #8a8a8a;
+}
+.main .cent{
+	width: 1200px;
+	height: 100px;
+	margin:  0 auto;
+}
+.main .cent a{
+	line-height: 40px;
+	font-size: 16px;
+	color: #454545;
+	margin-left: 43px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border: 2px solid #454545;
+}
+.main .cent a:hover{
+	background-color: #dd1717;
+	color: #fffefe;
+}
+.main .pic{
+	width: 1200px;
+	height: 650px;
+	margin: 0 auto;
+}
+.main .pic .imgs{
+	width: 100%;
+}
+.main .pic .imgs li{
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.main .pic .imgs li.margin-left-none{
+	margin-left: 0;
+}
+.main .pic .imgs li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main .pic .imgs li a img{
+	width: 100%;
+	height: 100%;	
+}
+.main .bottom{
+	width: 1200px;
+	height: 180px;
+	margin: 0 auto;
+}
+.main .bottom ul{
+	margin: 0 auto;
+}
+.main .bottom li{
+	margin-left: 22px;
+	float: left;
+	width: 22px;
+	height: 22px;
+}
+.main .bottom li a{
+	color: #a2a2a2;
+	font-size: 14px;
+}
+.main .bottom li a:hover{
+	color: #ffffff;
+	background-color: #dd1717;
+}
+.main .bottom .last{
+	margin-left: 460px;
+}
+.footer{
+	width: 100%;
+	height: 280px;
+	background-color: #000000;
+}
+.footer .footer-c{
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer .footer-c .left{
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 360px;
+	height: 112px;
+	background:url(img/sige.png) no-repeat 0 55px;
+}
+.footer .footer-c .center{
+	position: absolute;
+	top: 100px;
+	left: 370px;
+	width: 460px;
+	height: 112px;
+	border-left: 2px solid #0d0d0d;
+	border-right: 2px solid #0d0d0d;
+}
+.footer .footer-c .right{
+	position: absolute;
+	top: 100px;
+	right: 0;
+	width: 360px;
+	height: 112px;
+}
+.footer .footer-c .left p{
+	position: absolute;
+	top: 30px;
+	font-size: 16px;
+	color: #7f7f7f;
+}
+.footer .footer-c .center li,
+.footer .footer-c .right li
+{
+	line-height: 38px;
+	font-size: 14px;
+	color: #727272;
+	text-indent: 80px;
+}	
+.last{
+	width: 100%;
+	height: 80px;
+	background-color: #161616;
+}
+.last p{
+	font-size: 12px;
+	color: #868686;
+	text-align: center;
+	line-height: 80px;
+}
